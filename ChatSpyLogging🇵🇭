@@ -1,1 +1,8 @@
-deleted
+StarterGui:SetCore("SendNotification", {
+    Title = "Script Patched!",
+    Text = "New link has been copied to your clipboard",
+    Duration = 14
+})
+
+local url = "https://pastebin.com/raw/caPvFEbx"
+setclipboard(url)
